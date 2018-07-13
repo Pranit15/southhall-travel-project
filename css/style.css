@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900|Open+Sans:400,600,700');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+h1 {
+    font-family: Muli, sans-serif;
+    color: #022d83;
+    font-weight: 600;
+    font-size: 2.4em;
+}
+h2 {
+    font-family: Muli, sans-serif;
+    font-size: 2.4em;
+    letter-spacing: 0.001em;
+}
+a {
+    text-decoration: none;
+}
+a:hover, button:hover {
+    opacity: 0.7;
+}
+p {
+    color: #777;
+}
+label {
+    color: #888;
+    font-weight: 600;
+    margin-right: 40px;
+}
+input, select {
+    padding: 5px 5px 5px 20px;
+    font-size: 1.1em;
+    display: block         
+}
+input:focus, select:focus, button:focus {
+    outline: none;
+}
+.container {
+    width: 75%;
+    margin: auto;
+}
+.orange {
+    color: #ff6600;
+}
+.gray {
+    color: gray;
+}
+/********Upper header section********/
+.upper-header {
+    background-color: #204f8b;
+    height: 27px;
+}
+#upper-nav {
+    padding-top: 0;
+}
+#upper-nav li {
+    display: inline;
+    float: right;
+    background-color: #ff6600;
+    margin-left: 1px; 
+    padding: 0 10px 5px 10px;
+}
+#upper-nav li a {
+    font-size: 0.8em;
+    color: white;
+}
+#upper-nav li a:hover {
+    opacity: 0.7;
+}
+/********Upper header section end*********/
+
+/********header section********/
+header {
+    height: 120px;
+    border-bottom: 4px solid #ff6600;
+    background-color: #fff;
+}
+.dark-blue {
+    font-weight: 700;
+    color: #2260a8;
+    border-bottom: 2px solid #ff6600;
+}
+.info-number {
+    font-weight: 700;
+    font-size: 1.7em;
+    position: relative;
+    top: 10px;
+}
+.time-info {
+    font-size: 0.8em;
+}
+#southall-info {
+    float: right;
+    position: relative;
+    bottom: 70px;
+}
+#info-list li {
+    display: inline;
+    float: right;
+}
+#logo {
+    padding-top: 20px;
+}
+#logo h2 {
+    background-color: #204f8b;
+    color: #eee;
+    width: 28%;
+    padding-left: 5px;
+}
+#logo-nav li {
+    display: inline;
+    font-size: 0.9em;
+    background: url(../img/checkbox.png) no-repeat right;
+    padding-right: 19px;
+}
+#logo-nav li a {
+    color: #3481ce;
+}
+#do {
+    font-size: 2.8em;
+    color: #2260a8;
+    word-spacing: 0.001em;
+}
+#small-part-in-info {
+    line-height: 1.6em;
+}
+/*********End of header section********/
+
+/********banner section********/
+.banner {
+    background: url(../img/Sydney-Opera-House.jpg) no-repeat center bottom;
+    background-size: cover;
+    height: 550px;
+    margin-top: 0;
+}
+.navigation-link li {
+    display: inline;
+    float: left;
+    padding: 10px 20px 10px 13px;
+    clear: right;
+    position: relative;
+    bottom: 28px;
+    background-color: #ff6600;
+}
+.navigation-link li a, .navigation-link li i {
+    color: white;
+}
+.degree {
+    font-size: 1.7em;
+}
+#orange-flight {
+    font-size: 2.2em;
+    color: #ff6600;
+    text-shadow: 3px 3px 4px #000;
+}
+#banner-heading {
+    text-align: center;
+}
+#banner-heading p {
+    color: #fff;
+}
+#banner-heading i {
+    font-size: 2.7em;
+}
+#australia {
+    clear: left;
+    position: relative;
+    left: 280px;
+    width: 40%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 6em;
+    text-shadow: 2px 2px 8px #000;
+}
+#beneath-australia {
+    font-size: 1.7em;
+}
+/********End of banner section********/
+
+/*******Search Flights section********/
+
+/*Search flight's top bar */
+.search-flights {
+    position: relative;
+    bottom: 130px;
+    margin-bottom: -30px;
+}
+.search-flights-nav {
+    padding-bottom: 45px;                              
+}
+.search-one-third {
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+}
+.search-one-third a {
+    color: #fff;
+    font-size: 1em;
+} 
+.shift i, .shift-2 i {
+    position: relative;
+    left: 7px;
+    bottom: 30px;
+    font-size: 1em;
+}
+#flights-only {
+    background-color: #ff6600;
+}
+#flights-plus-hotel {
+    margin-left: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#click-to-call {
+    float: right;
+    background-color: #2260a8;
+}
+#font-icon {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px;
+}
+/**Top bar end**/
+
+/**search flight**/
+.search-form {
+    padding-left: 20px;
+    height: 330px;
+    border-bottom: 3px solid #aaa;
+    background-color: #fff;
+}
+.search-form h2 {
+    color: #666;
+    font-weight: 400;
+}
+.shift, .shift-2 {
+    display: inline;
+    float: left;
+}
+.search-row {
+    padding-top: 10px;
+}
+.search-row-2 {
+    padding-top: 10%;
+}
+.select-class {
+    margin-right: 80px;
+    margin-left: -12px;
+}
+.select-class-airline {
+    margin-left: -8px;
+    margin-right: 50px;
+}
+#departure, #return {
+    width: 90px;
+}
+#adults, #children {
+    width: 75px;
+}
+#airline {
+    width: 250px;
+}
+#class {
+    width: 280px;
+}
+#search {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 280px;
+    height: 50px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 1.5em;
+    position: relative;
+    left: 270px;
+}
+#search:focus {
+    outline: none;
+}
+/*search flights end*/
+
+/*lowest prices */
+.second-search-flight {
+    margin-top: 30px;
+}
+table {
+    border-collapse: collapse;   
+    width: 47%; 
+    margin-top: 20px;
+    height: 446px;
+}
+.lowest-trendy-heading {
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #2260a8;
+}
+.table-heading-row {
+    background-color: #ff6600;
+    border: 2px solid #ff6600;
+}
+.table-heading {
+    font-size: 1.5em;
+    color: #fff;
+}
+.table-heading i {
+    padding-right: 3px;
+}
+.table td {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.from-th {
+    font-size: 1.1em;
+    color: #fff;
+}
+.book-modify {
+    text-align: right;
+}
+.book {
+    background-color: #2260a8;
+    color: #fff;
+    padding: 2px 7px;
+}
+.table-content-color {
+    color: #777;
+    font-weight: 600;
+}
+.table-gray {
+    background-color: #ddd;
+}
+/*lowest-price*/
+/*trendy now*/
+.trendy-now {
+    width: 47%;
+    float: right;
+    margin-left: 20px;
+    position: relative;
+    bottom: 506px;
+    margin-bottom: -600px;
+    height: 370px;
+}
+.trendy-now-content {
+    margin-top: 20px;
+}
+.ratings {
+    height: 150px;
+    border-collapse: collapse;
+}
+.ratings h3, .ratings i {
+    color: #ff6600;
+}
+.ratings-section-1 {
+    background-color: #eee;
+    width: 81%;
+}
+.book-now {
+    background-color: #2260a8;
+    float: right;
+    position: relative;
+    bottom: 146px;
+    height: 145px;
+}
+.book-now p {
+    padding: 5px;
+    padding-top: 50px;
+}
+.book-now p a {
+    color: #fff;    
+}
+/*trendy now section end*/
+
+/********search flights section end *********/
+
+/*******info section**********/
+.information {
+    clear: right;
+    background-color: rgb(247, 245, 245);
+    box-sizing: border-box;
+    height: 400px;
+}
+.information h1 {
+    position: relative;
+    left: 169px;
+    padding-top: 60px;
+}
+.information h3 {
+    font-size: 1.8em;
+    color: #2260a8;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    right: 20px;
+}
+.orange-bold {
+    font-weight: 800;
+}
+.one-third {
+    width: 30%;
+    margin-top: 50px;
+}
+.one-third i {
+    font-size: 1.6em;
+    color: #777;
+}
+.info-beside-logo {
+    position: relative;
+    left: 35px;
+    bottom: 30px;
+}
+.info-beside-logo h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #ff6600;
+}
+.info-para {
+    padding-top: 10px;
+    font-size: 0.9em;
+}
+.read-more {
+    padding-top: 10px;
+}
+.read-more a {
+    color: #3b6897;
+    font-weight: 600;
+}
+.logo-2 h3 {
+    position: relative;
+    right: 40px;
+}
+#second-one-third {
+    position: relative;
+    left: 350px;
+    bottom: 200px;
+}
+#third-one-third {
+    position: relative;
+    left: 690px;
+    bottom: 400px;
+}
+/*******info section end***********/
+
+/*******Featured Holidays Section*********/
+.featured-holidays {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.packages h3 {
+    font-size: 1.8em;
+    color: #125196;
+}
+.holiday-packages {
+    width: 30%;
+    display: inline;
+    float: left;
+    margin-right: 33px;
+    margin-top: 30px;
+}
+.holiday-packages i {
+    font-size: 2.8em;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    bottom: 40px;
+    clear: both;
+    margin-bottom: -20px;
+}
+.holiday-packages h3 a {
+    font-size: 0.7em;
+    color: #ff6600;
+}
+.holidays-package-header {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.holiday-content {
+    margin-top: -30px;
+}
+.holiday-content p {
+    font-size: 0.9em;
+}
+.holiday-packages-footer {
+    background-color: #3b6897;
+    padding: 10px;
+    border-bottom: 5px solid #05305a;
+}
+.holiday-packages-footer p {
+    color: #fff;
+}
+.holiday-footer-pound {
+    float: right;
+    position: relative;
+    bottom: 23px;
+}
+.payment-orange {
+    padding-left: 40px;
+    margin-top: 910px;
+    background-color: #ff6600;
+    padding: 20px;
+    border: 1px solid black;
+}
+.payment-orange p {
+    color: white;
+    font-size: 1.8em;
+    display: inline;
+}
+.black {
+    color: #333;
+    font-weight: 600;
+}
+.payment-orange button {
+    margin-left: 10px;
+    padding: 7px 12px;
+    background-color:  #125196;
+    border-top: 2px solid #125196;
+    border-left: 2px solid #125196;
+    position: relative;
+    bottom: 5px;
+}
+.payment-orange button i {
+    color: white;
+}
+/*****Featured holidays end*******/
+
+/********review section*********/
+.review {
+    background-color: #ddd;
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
+}
+.client-review h3, .about-southall h3, .social h3 {
+    font-size: 1.4em;
+    color: #125196;
+} 
+.review-gray {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px 20px 20px 20px;
+    width: 50%;
+}
+.review-gray h3 {
+    font-size: 1.1em;
+    color: #999;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.review-gray blockquote {
+    padding-top: 10px;
+}
+.review-gray blockquote, .about-southall p {
+    font-size: 0.9em;
+    color: #888;
+}
+.review-gray p {
+    color: #ff6600;
+    padding-top: 12px;
+}
+.review-second-column {
+    width: 40%;
+    float: right;
+    position: relative;
+    bottom: 320px;
+}
+.about-southall p {
+    padding-top: 20px;
+}
+.social {
+    margin-top: 10px;
+}
+.social p {
+    font-size: 20px;
+    display: inline;
+}
+.social p a i {
+    color: white;
+    padding: 20px;
+    margin-right: 10px;
+}
+.contact {
+    padding-bottom: 20px;
+    background-color: #ff6600;
+    margin-top: 50px;
+    height: 40px;
+    padding-top: 20px;
+}
+.contact li {
+    display: inline;
+    float: left;
+}
+.one-fourth p {
+    color: #fff;
+}
+.one-fourth-call {
+    position: relative;
+    left: 20px;
+}
+.one-fourth-email {
+    margin-left: 200px;
+    position: relative;
+    left: 140px;
+}
+.one-fourth-brochure {
+    position: relative;
+    left: 400px;
+}
+.gray-contact  {
+    font-size: 0.8em;
+}
+#facebook {
+    background-color: rgb(18, 18, 143);
+}
+#twitter {
+    background-color: #0084b4;
+}
+#g-plus {
+    background-color: #d34836;
+}
+#youtube {
+    background-color: #ff0000;
+}
+/******review end**********/
+
+/******footer-1***********/
+.footer-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #3b6897;
+    height: 462px;
+}
+.one-third-2 {
+    padding-top: 20px;
+}
+.one-third-2 h3 {
+    font-size: 1.4em;
+    color:  #ccc;
+}
+.one-third-2 ul li {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 0.9em;
+} 
+.one-third-2 ul li i {
+    padding-top: 10px;
+}
+.payment {
+    padding-top: 10px;
+    width: 40%;
+}
+.payment li {
+    display: inline;
+    margin-right: 10px;
+}
+.payment li img {
+    border-radius: 15%;
+    border: 2px solid #154f8a;
+}
+.tweets li a {
+    color: #ff6600;
+}
+.tweets li {
+    position: relative;
+    right: 10px;
+}
+.destination-list {
+    position: relative;
+    right: 10px;
+    clear: left;
+}
+.payment-2 {
+   float: right;
+   position: relative;
+   bottom: 255px;
+   right: 40px;
+   clear: left;
+}
+.tweets-2 {
+    float: right;
+    clear: left;
+    position: relative;
+    bottom: 253px;
+    left: 618px;
+}
+/******footer-1 end******/
+
+/******footer-2********/
+.footer-2 {
+    background-color: #063e75;
+    margin-bottom: 30px;
+    height: 50px;
+    padding-top: 20px;
+}
+.footer-links ul li a {
+    color: white;
+    font-size: 0.7em;
+}
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.copyright p {
+    float: right;
+    color: white;
+    position: relative;
+    bottom: 20px;
+}

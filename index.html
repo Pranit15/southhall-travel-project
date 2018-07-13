@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Website for flight tickets for all over the world">
+    <meta name="keywords" content="Southall travel, flight ,do it all, book flight tickets, holidays, India tourism" >
+    <meta name="robots" content="index no-follow">
+
+    <title>Southall Travel | Flights | Destinations | Holidays | Business Travel | India Tours | Insurance</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/title-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--upper-header-->
+    <div class="upper-header">
+        <div class="container">
+            <ul id="upper-nav">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">My Account</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--End of upper header-->
+
+    <!--header-->
+    <header>
+        <div class="container">
+            <div id="logo">
+                <h2>Southall <span class="orange">Travel</span></h2>
+                <ul id="logo-nav">
+                    <li><a href="#">all flights</a></li>
+                    <li><a href="#">all holidays</a></li>
+                    <li><a href="#">all destinations</a></li>
+                </ul>
+            </div>
+            <div id="southall-info">
+                <ul id="info-list">
+                <li id="small-part-in-info">
+                    <p><span class="orange info-number">0208 843 4444</span> <br>
+                    <span class="gray time-info">24 hours a day/7 days a week</span></p>
+                </li>
+                <li id="do">do it <span class="dark-blue">all</span></p></li>
+            </div>
+        </div>
+    </header>
+    <!--end of header-->
+
+    <!--banner-->
+    <div class="banner">
+        <div class="container">
+            <nav>
+                <ul class="navigation-link">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">FLIGHTS</a>
+                        <i class="fa fa-sort-desc"></i></li>
+                    <li><a href="#">DESTINATIONS</a>
+                        <i class="fa fa-sort-desc"></i></li>
+                    <li><a href="#">HOLIDAYS</a>
+                        <i class="fa fa-sort-desc"></i></li>
+                    <li><a href="#">BUSINESS TRAVEL</a></li>
+                    <li><a href="#">INDIA TOURS</a></li>
+                    <li><a href="#">INSURANCE</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+            </nav>
+            <div id="banner-heading">
+                <p class="degree">11.2&deg;
+                <i class="fa fa-cloud"></i></p>
+                <p id="australia">Australia</p>
+                <p id="beneath-australia">From <span id="orange-flight">&pound;569</span> Flight + 3Nights </p>
+            </div>
+        </div>
+    </div>
+    <!--end of banner-->
+
+    <!--search flights section-->
+    <section class="search-flights">
+        <div class="container">
+            <ul class="search-flights-nav">
+                <li class="search-one-third" id="flights-only">
+                    <a href="#"><i class="fa fa-plane" id="font-icon"></i>FLIGHTS ONLY</a>
+                </li>
+                <li class="search-one-third" id="flights-plus-hotel">
+                    <a href="#"><i class="fa fa-plane" id="font-icon"></i> + <i class="fa fa-building" id="font-icon"></i>FLIGHTS AND HOTELS</a>
+                </li>
+                <li class="search-one-third" id="click-to-call">
+                <a href="#"><i class="fa fa-mobile-phone" id="font-icon"></i>CLICK TO CALL US</a>
+                </li>
+                </ul>
+            <section class="search-form">
+                <h2>Search Flights</h2>
+                <form action="#" method="GET">
+                    <section class="search-row">
+                        <label for="leaving" class="shift">Leaving From
+                            <input type="text" placeholder="Departure:Country, city" id="leaving">
+                            <i class="fa fa-map-marker"></i>
+                        </label>
+                        <label for="going" class="shift going-to-class">Going to
+                            <input type="text" placeholder="Departure:Country, City" id="going">
+                            <i class="fa fa-map-marker"></i>
+                        </label>
+                        <label for="departure" class="shift departure-class">Departure
+                            <input type="date" id="departure">
+                            <i class="fa fa-calendar"></i>
+                        </label>
+                        <label for="return" class="shift">Return
+                            <input type="date" id="return">
+                            <i class="fa fa-calendar"></i>
+                        </label>
+                    </section>
+                    <section class="search-row-2">
+                        <label for="adults" class="shift-2">Adults (12+Y)
+                            <input type="number" id="adults">
+                        </label>
+                        <label for="children" class="shift-2">Children (2-12)
+                            <input type="number" id="children">
+                        </label>
+                        <label for="airline" class="shift-2 select-class-airline">Airline
+                            <select name="Airline" id="airline" aria-placeholder="Place anyone">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <i class="fa fa-plane"></i>
+                        </label>
+                        <label for="class" class="shift-2 select-class">Class
+                            <select name="Class" id="class">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <i class="fa fa-bed"></i>
+                        </label>
+                    </section>    
+                    <label for="search" id="label-search">
+                        <button id="search">SEARCH</button>
+                    </label>
+                </form>
+            </section>
+            <div class="second-search-flight">
+                <section class="lowest-price">
+                    <h3 class="lowest-trendy-heading">Today's <span class="dark-blue">Lowest Prices</span></h3>
+                    <table>
+                        <tr class="table table-heading-row">
+                            <td class="table-heading"><i class="fa fa-map-marker"></i>Destination</td>
+                            <td class="table-heading"><i class="fa fa-mail-forward">Departing</i></td>
+                            <td class="table-heading"><i class="fa fa-plane"></i>Flights</td>
+                            <td class="from-th">From</td>
+                        </tr>
+                        <tr class="table">
+                            <td class="table-content-color">Dubai</td>
+                            <td class="table-content-color">London</td>
+                            <td class="table-content-color">&pound;271</td>
+                            <td class="book-modify"><button class="book">BOOK</button></td>
+                        </tr>
+                        <tr class="table table-gray">
+                            <td class="table-content-color">Mumbai</td>
+                            <td class="table-content-color ">London</td>
+                            <td class="table-content-color">&pound;347</td>
+                            <td class="book-modify"><button class="book">BOOK</button></td>
+                        </tr>
+                        <tr class="table">
+                            <td class="table-content-color">Hyderabad</td>
+                            <td class="table-content-color">London</td>
+                            <td class="table-content-color">&pound;370</td>
+                            <td class="book-modify"><button class="book">BOOK</button></td>
+                        </tr>
+                        <tr class="table table-gray">
+                            <td class="table-content-color">Delhi</td>
+                            <td class="table-content-color">London</td>
+                            <td class="table-content-color">&pound;370</td>
+                            <td class="book-modify"><button class="book">BOOK</button></td>
+                        </tr>
+                        <tr class="table">
+                            <td class="table-content-color">Bangkok</td>
+                            <td class="table-content-color">London</td>
+                            <td class="table-content-color">&pound;347</td>
+                            <td class="book-modify"><button class="book">BOOK</button></td>
+                        </tr>
+                        <tr class="table table-gray">
+                            <td class="table-content-color">Amritsar</td>
+                            <td class="table-content-color">London</td>
+                            <td class="table-content-color">&pound;271</td>
+                            <td class="book-modify"><button class="book">BOOK</button></td>
+                        </tr>
+                    </table>
+                </section>
+                <aside class="trendy-now">
+                    <h3 class="lowest-trendy-heading">Trendy <span class="dark-blue">Now</span></h3>
+                    <div class="trendy-now-content">
+                        <div class="ratings">
+                            <div class="ratings-section-1">
+                                <p><img src="img/air-india.jpg" alt="Air-India"></p>
+                                <h3>Air India</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            </div>
+                            <div class="book-now">
+                                <p><a href="#">&pound;271<br>
+                                BOOK NOW</a></p>
+                            </div>
+                        </div>
+                        <div class="ratings">
+                            <div class="ratings-section-1">
+                                <p><img src="img/qatar-airways.png" alt="Qatar-Airways" height="50px" width="50px"></p>
+                                <h3>Qatar Airways</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            </div>
+                            <div class="book-now">
+                                <p><a href="#">&pound;250<br>
+                                BOOK NOW</a></p>
+                            </div>
+                        </div>
+                        <div class="ratings">
+                            <div class="ratings-section-1">
+                                <p><img src="img/business.png" alt="Business Class" height="50px" width="50px"></p>
+                                <h3>Business Class Flights</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            </div>
+                            <div class="book-now">
+                                <p><a href="#">&pound;371<br>
+                                BOOK NOW</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+    <!--end of flights section-->
+
+    <!--info section-->
+    <section class="information">
+        <div class="container">
+            <div class="sub-info">
+                <h1>DISCOVER THE <span class="orange orange-bold">WORLD</span> FOR <span class="orange orange-bold">LESS</span></h1>
+                <h3>do it <span class="dark-blue">all</span> with Southall Travel</h3>
+                <div class="one-third">
+                    <i class="fa fa-users"></i>
+                    <div class="info-beside-logo">
+                        <h3>24/7 assistance Travel Experts</h3>
+                        <p class="info-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+                        <p class="read-more"><a href="#">read more...</a></p>
+                    </div>
+                </div>
+                <div class="one-third" id="second-one-third">
+                    <i class="fa fa-retweet"></i>
+                    <div class="info-beside-logo logo-2">
+                        <h3>Lowest Fares Guaranteed</h3>
+                        <p class="info-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+                        <p class="read-more"><a href="#">read more...</a></p>
+                    </div>
+                </div>
+                <div class="one-third" id="third-one-third">
+                    <i class="fa fa-umbrella"></i>
+                    <div class="info-beside-logo logo-2">
+                        <h3>ATOL and ABTA Protected</h3>
+                        <p class="info-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
+                        <p class="read-more"><a href="#">read more...</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of info section-->
+
+    <!--featured holidays section-->
+    <section class="featured-holidays">
+        <div class="container">
+            <div class="packages">
+                <h3>Featured Holidays</h3>
+                <div class="holiday-packages">
+                    <div class="holidays-package-header">
+                        <a href="#"><img src="img/honeymoon.jpg" alt="Honeymoon Holidays" width="287px" height="176px"></a>
+                        <i class="fa fa-heart"></i>
+                        <div class="holiday-content">
+                            <h3><a href="#">Honeymoon Holidays</a></h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                    <div class="holiday-packages-footer">
+                        <p>3 Nights</p>
+                        <p class="holiday-footer-pound">From &pound;485 pp</p>
+                    </div>
+                </div>
+                <div class="holiday-packages">
+                    <div class="holidays-package-header">
+                        <a href="#"><img src="img/luxury.jpg" alt="Luxury Holidays" width="287px" height="176px"></a>
+                        <i class="fa fa-life-ring"></i>
+                        <div class="holiday-content">
+                            <h3><a href="#">Luxury Holidays</a></h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                    <div class="holiday-packages-footer">
+                        <p>3 Nights</p>
+                        <p class="holiday-footer-pound">From &pound;485 pp</p>
+                    </div>
+                </div>
+                <div class="holiday-packages">
+                    <div class="holidays-package-header">
+                        <a href="#"><img src="img/family.jpg" alt="Family Holidays" width="287px" height="176px"></a>
+                        <i class="fa fa-plane"></i>
+                        <div class="holiday-content">
+                            <h3><a href="#">Family Holidays</a></h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                    <div class="holiday-packages-footer">
+                        <p>3 Nights</p>
+                        <p class="holiday-footer-pound">From &pound;485 pp</p>
+                    </div>
+                </div>
+                <div class="holiday-packages">
+                    <div class="holidays-package-header">
+                        <a href="#"><img src="img/inclusive.jpg" alt="All Iclusive Holidays" width="287px" height="176px"></a>
+                        <i class="fa fa-arrows"></i>
+                        <div class="holiday-content">
+                            <h3><a href="#">All Inclusive Holidays</a></h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                    standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                    <div class="holiday-packages-footer">
+                        <p>3 Nights</p>
+                        <p class="holiday-footer-pound">From &pound;485 pp</p>
+                    </div>
+                </div>
+                <div class="holiday-packages">
+                    <div class="holidays-package-header">
+                        <a href="#"><img src="img/worldwide.jpg" alt="Worldwide Tours" width="287px" height="176px"></a>
+                        <i class="fa fa-map-marker"></i>
+                        <div class="holiday-content">
+                            <h3><a href="#">Worldwide Holidays</a></h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                        standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                    <div class="holiday-packages-footer">
+                        <p>3 Nights</p>
+                        <p class="holiday-footer-pound">From &pound;485 pp</p>
+                    </div>
+                </div>
+                <div class="holiday-packages">
+                    <div class="holidays-package-header">
+                        <a href="#"><img src="img/dubai.jpg" alt="Dubai Multi Centre Holidays" width="287px" height="176px"></a>
+                        <i class="fa fa-mars-double"></i>
+                        <div class="holiday-content">
+                            <h3><a href="#">Dubai Multi Centre Holidays</a></h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                            standard dummy text ever since the 1500s</p>
+                        </div>
+                    </div>
+                    <div class="holiday-packages-footer">
+                        <p>3 Nights</p>
+                        <p class="holiday-footer-pound">From &pound;485 pp</p>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-orange">
+                <p><i class="fa fa-credit-card-alt"></i> Make a <span class="black">Payment</span> Now &amp; <span class="black">Enjoy</span> Trip with your Love Once!</p>
+                <button><i class="fa fa-bolt">PAY NOW</i></button>
+            </div>
+        </div>
+    </section>
+    <!--end of holidays section-->
+
+    <!--review section-->
+    <div class="review">
+        <div class="container">
+            <section class="client-review">
+                <h3>What our clients say</h3>
+                <div class="review-gray">
+                    <h3>THANKS FOR THE TRIPS!THIS IS AMAZING TRAVEL!</h3>
+                    <blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a 
+                        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
+                        passages, and more recently with desktop</blockquote>
+                    <p>-PRANIT BATRA/WEB DESIGNER</p>
+                </div>
+            </section>
+            <div class="review-second-column">
+                <aside class="about-southall">
+                    <h3>About Southall Travel</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+                         type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                          essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem 
+                          Ipsum passages, and more recently with desktop </p>
+                </aside>   
+                <aside class="social">
+                    <h3>We're in Social Networks!</h3>
+                    <p><a href="#"><i class="fa fa-facebook" id="facebook"></i></a></p>
+                    <p><a href="#"><i class="fa fa-twitter" id="twitter"></i></a></p>
+                    <p><a href="#"><i class="fa fa-google-plus" id="g-plus"></i></a></p>
+                    <p><a href="#"><i class="fa fa-youtube" id="youtube"></i></a></p>
+                </aside>
+            </div>
+            <ul class="contact">
+                <li class="one-fourth one-fourth-call">
+                    <p class="gray-contact">CALL US</p>
+                    <p>0208 843 4444</p>
+                </li>
+                <li class="one-fourth one-fourth-email">
+                    <p class="gray-contact">EMAIL US</p>
+                    <p>info@southall.com</p>
+                </li>
+                <li class="one-fourth one-fourth-brochure">
+                    <p class="gray-contact">SOUTHALL TRAVEL</p>
+                    <p>Download Brochure</p>
+                </li>
+            </div>
+        </div>
+    </div>
+    <!--end of review section-->
+
+    <!--footer-1 section-->
+    <div class="footer-1">
+        <div class="container">
+            <div class="one-third-2 top-2">
+                <h3>Top Flights Destination</h3>
+                <ul class="fa-ul destination-list">
+                    <li><i class="fa-li fa fa-plane"></i>Flights to India</li>
+                    <li><i class="fa-li fa fa-plane"></i>Tickets to Delhi</li>
+                    <li><i class="fa-li fa fa-plane"></i>Flights to Middle East</li>
+                    <li><i class="fa-li fa fa-plane"></i>Tickets to Dubai</li>
+                    <li><i class="fa-li fa fa-plane"></i>Flights to Far East</li>
+                    <li><i class="fa-li fa fa-plane"></i>Tickets to Bangkok</li>
+                    <li><i class="fa-li fa fa-plane"></i>Flights to East Africa</li>
+                </ul>
+            </div>
+            <div class="one-third-2 payment-2">
+                <h3>Payment Options</h3>
+                <ul class="payment">
+                    <li><a href="#"><img src="img/visa.png" alt="Visa" width="50px"></a></li>
+                    <li><a href="#"><img src="img/mastercard.png" alt="Master Card" width="50px"></a></li>
+                    <li><a href="#"><img src="img/shopify.png" alt="Shopify" width="50px"></a></li>
+                    <li><a href="#"><img src="img/jcb.png" alt="JCB" width="50px"></a></li>
+                    <li><a href="#"><img src="img/discover.png" alt="Discover" width="50px"></a></li>
+                    <li><a href="#"><img src="img/paypal.png" alt="American Express" width="50px"></a></li>
+                    <li><a href="#"><img src="img/delta.png" alt="Delta" width="50px" height="50px"></a></li>
+                    <li><a href="#"><img src="img/diners.png" alt="Diners" width="50px" height="50px"></a></li>
+                    <li><a href="#"><img src="img/cirrus.png" alt="Cirrus" width="50px"></a></li>
+                </ul>
+            </div>
+            <div class="one-third-2 tweets-2">
+                <h3>Latest Tweets</h3>
+                <ul class="fa-ul tweets">
+                    <li><i class="fa-li fa fa-plane"></i>Discover the best of Bali at a special price.Click <a href="#">Here</a></li>
+                    <li><i class="fa-li fa fa-plane"></i>Discover the best of Bali at a special price.Click <a href="#">Here</a></li>
+                    <li><i class="fa-li fa fa-plane"></i>Discover the best of Bali at a special price.Click <a href="#">Here</a></li>
+                    <li><i class="fa-li fa fa-plane"></i>Discover the best of Bali at a special price.Click <a href="#">Here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--end of footer 1-->
+
+    <!--start of footer 2-->
+    <div class="footer-2">
+        <div class="container">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Data Protection</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Travel Protection</a></li>
+                    <li><a href="#">Fake Alert</a></li>
+                    <li><a href="#">Visa Services</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2015 southalltravel.co.uk.All rights reserved</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
